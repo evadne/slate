@@ -490,10 +490,42 @@ a:hover {
 		}
 		
 			#timeline_cnt {
+			
+				overflow: visible;
+			
+			}
+			
+			#timeline_cnt #empty_timeline_fg {
+	
+					line-height: 72px;
 
-			overflow: visible;
+			}
+			
+				#timeline_cnt #empty_timeline_fg a {
+	
+					text-decoration: none;
+					color: white;
+					
+					background: rgba(0, 0, 0, .50);
+					padding: 9px;
+					
+					-webkit-border-radius: 4.5px;
+	
+				}
+				
+					#timeline_cnt #empty_timeline_fg a:hover {
+	
+						background: rgba(0, 0, 0, .75);
 
-}
+					}
+					
+					#timeline_cnt #empty_timeline_fg a:active {
+	
+						-webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 1);
+	
+					}
+					
+								
 	
 	/* @group De-Junk */
 	
@@ -502,7 +534,8 @@ a:hover {
 		div#last_seen,
 		div#last_seen_plurk, 
 		.morning, .night, .day, .evening,
-		div#promote-multicast {
+		div#promote-multicast,
+		#timeline_cnt #empty_timeline_bg {
 		
 			width: 0 !important;
 			max-width: 0 !important;
@@ -1129,8 +1162,22 @@ a:hover {
 
 /* @group Qualifications Menu */
 
+	#main_poster .qual_holder img.dd_img {
+	
+		width: 0 !important;
+		max-width: 0 !important;
+		height: 0 !important;
+		max-height: 0 !important;
+		opacity: 0 !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		overflow: hidden;
+	
+	}
+
 	div.AmiMenu.qual_menu {
 	
+		margin-left: 9px;
 		background: rgb(64, 64, 64);
 
 	}
@@ -1272,7 +1319,6 @@ a:hover {
 	width: 720px;
 
 }
-
 
 
 
