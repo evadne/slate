@@ -1374,8 +1374,39 @@ a:hover {
 .response_time.plurk_cnt {
 	
 	z-index:  4096;
+	height: 27px;
+	margin-top: 4px;
+	margin-left: 18px;
+	padding-left: 4.5px;
+	padding-right: 9px;
+	
+	background: rgba(64, 64, 64, .85) !important;
+	-webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, .5);
 
 }
+
+	.response_time.plurk_cnt .holder {
+	
+		padding: 0;
+
+	}
+	
+		.response_time.plurk_cnt .holder .reply_to {
+	
+			margin-top: 1px;
+			background-color: white;
+			border: 4.5px solid white;
+			-webkit-border-radius: 2px;
+			margin-right: 9px;
+	
+		}
+
+	.response_time.plurk_cnt p {
+
+		line-height: 27px;
+			color: white !important;
+		
+	}
 
 #form_holder {
 
