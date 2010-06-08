@@ -887,23 +887,13 @@ a:hover {
 		#plurk_form form {
 
 			background-color: #EFEFEF !important;	
-			-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
-			-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
-			box-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+			-webkit-box-shadow: 0px 0px 4.5px rgba(0, 0, 0, .25);
 			padding: 0px;
 			
 			-moz-border-radius: 4.5px;
 			-webkit-border-radius: 4.5px;
 			border-radius: 4.5px;
 
-		}
-	
-		#plurk_form form:hover {
-	
-			-webkit-box-shadow: 0px 0px 5px #666;
-			-moz-box-shadow: 0px 0px 5px #666;
-			box-shadow: 0px 0px 5px #666;
-	
 		}
 	
 		#plurk_form .caption {
