@@ -252,8 +252,6 @@ a:hover {
 			border: none;
 			height: auto;
 			min-height: 256px;
-			/*
-			max-height: 400px;*/
 			padding-bottom: 18px;
 			border-top: 4.5px solid rgba(0, 0, 0, .125) !important;
 			background: rgb(240, 240, 240);
@@ -614,21 +612,23 @@ a:hover {
 		line-height: 36px;
 		padding: 0 9px !important;
 		border: none !important;
-		background: none !important;
+		background: rgba(0, 0, 0, 0) !important;
 		font-weight: bold;
+	
+		-webkit-border-radius: 4.5px;
+		-moz-border-radius: 4.5px;
+		border-radius: 4.5px;
 		
+		-webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0);
+				
 	}
 	
 		#filter_tab a.filter_selected {
 	
 			color: rgba(0, 0, 0, .5);
 			background: rgba(0, 0, 0, .125) !important;
-			-webkit-box-shadow: inset 0px 0px 4px black;
-			
-			-webkit-border-radius: 4.5px;
-			-moz-border-radius: 4.5px;
-			border-radius: 4.5px;
-	
+			-webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 1);
+				
 		}
 
 	#filter_tab .off_tab:hover {
