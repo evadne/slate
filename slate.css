@@ -412,13 +412,24 @@ a:hover {
 	
 		}
 		
-			.plurk_box div.info_box .perma_link a {
+			.plurk_box div.info_box .perma_link a,
+			.plurk_box div.info_box {
 	
 				font-size: inherit;
 				line-height: inherit;
 				font-variant: small-caps;
 				font-weight: bold;
 				
+			}
+			
+			.plurk_box div.info_box div.favorite_count {
+	
+				font-size: inherit;
+				line-height: 5px;
+				height: 9px;
+				font-variant: small-caps;
+				font-weight: bold;				
+	
 			}
 			
 /* @end */
