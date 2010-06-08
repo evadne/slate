@@ -1135,7 +1135,7 @@ a:hover {
 		
 	
 	}
-
+	
 		.dash-segment .segment-content {
 		
 			padding: 0px;
@@ -1144,10 +1144,10 @@ a:hover {
 
 		#div_loading,
 		.AmiTT_main,
-		#dash-friends,
-		#dash-fans,
+		#dash-friends *,
+		#dash-fans *,
 		#dash-stats {
-
+		
 			width: 0 !important;
 			max-width: 0 !important;
 			height: 0 !important;
@@ -1156,8 +1156,49 @@ a:hover {
 			margin: 0 !important;
 			padding: 0 !important;
 			overflow: hidden;
+		
+		}
+		
+		#dash-friends,
+		#dash-fans {
+			
+			min-height: 54px !important;
+		
+		}
+				
+		#dash-friends #friend_managment,
+		#dash-friends #friend_managment *,
+		#dash-fans #fan_managment,
+		#dash-fans #fan_managment * {
+	
+			width: auto !important;
+			max-width: auto !important;
+			height: 36px !important;
+			padding: 0px;
+			opacity: 1 !important;
+			overflow: inherit !important;
 
 		}
+		
+			#dash-profile #private_plurk a,
+			#dash-friends a,
+			#dash-fans a {
+	
+				white-space: nowrap;
+				padding: 0px !important;
+				
+				border: none;
+				background: none !important;
+				
+				color: gray !important;
+				
+				text-transform: uppercase;
+				
+				line-height: 36px;
+
+			}
+
+		
 
 	/* @end */
 	
