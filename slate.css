@@ -1,5 +1,7 @@
 /* @override http://www.plurk.com/Users/getCustomCss?user_id=4117869 */
 
+/* @group Reset */
+
 * {
 
 	font-family: "Lucida Grande", "Helvetica Neue";
@@ -49,6 +51,10 @@ a:hover {
 	text-decotation: inherit;
 
 }
+
+
+
+/* @end */
 
 /* @group Top Bar */
 
@@ -201,6 +207,14 @@ a:hover {
 		padding-right: 0px;
 		margin-right: 0px;
 
+	}
+	
+	.plurk_cnt textarea {
+	
+		width: 288px !important;
+		height: 144px !important;
+		padding: 9px;
+	
 	}
 	
 	.display .plurk_cnt div.truncated {
@@ -732,7 +746,22 @@ a:hover {
 
 /* @group Dashboard */
 
+#plurk-dashboard {
 
+	clear: both;
+
+	width: 100%;
+	/*height: 120px;*/
+	/*overflow: hidden;*/
+	padding: 9px 0px 0px 7px;
+
+}
+
+	.dash-segment {
+
+		width: 100%;
+
+	}
 
 #dashboard_holder {
 	
@@ -1193,7 +1222,7 @@ a:hover {
 
 /* @group Qualifications Menu */
 
-	#main_poster .qual_holder img.dd_img {
+#main_poster .qual_holder img.dd_img {
 	
 		width: 0 !important;
 		max-width: 0 !important;
@@ -1288,31 +1317,65 @@ a:hover {
 
 /* @end */
 
+/* @group Info Menu */
 
+.AmiMenu.info_menu {
 
+		background-color: #333;
+		color: white;
+		font-weight: 500;
+		border-top: none !important;
+		border-bottom: none !important;
+		padding: 5px;
+		margin: 10px;
 
-
-
-
-
-
-
-#footer {
-
-	width: 0 !important;
-	max-width: 0 !important;
-	height: 0 !important;
-	max-height: 0 !important;
-	opacity: 0 !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	overflow: hidden;
-
+		-webkit-box-shadow: 0px 0px 5px #888;
+		-moz-box-shadow: 0px 0px 5px #888;
+		box-shadow: 0px 0px 5px #888;
 }
 
+		.AmiMenu.info_menu .user_info {
+
+			line-height: 20px;
+			font-weight: bold;
+			padding-right: 9px;
+			padding-left: 9px;
+
+		}
+		
+		.AmiMenu.info_menu .user_img,
+		.AmiMenu.info_menu .separator {
+	
+			width: 0 !important;
+			max-width: 0 !important;
+			height: 0 !important;
+			max-height: 0 !important;
+			opacity: 0 !important;
+			margin: 0 !important;
+			padding: 0 !important;
+			overflow: hidden;
+		
+		}
+		
+		.AmiMenu.info_menu div {
+
+		background: none !important;
+			border-top: none !important;
+			border-bottom: none !important;
+				
+		}
 
 
 
+/* @end */
+
+/* @group Snippets */
+
+.response_time.plurk_cnt {
+	
+	z-index:  4096;
+
+}
 
 #form_holder {
 
@@ -1322,8 +1385,17 @@ a:hover {
 
 }
 
+.video img,
+.video:hover img,
+.pictureservices img,
+.pictureservices:hover img {
 
-	.td_response_count {
+	padding: 0px !important;
+	border: none;
+
+}
+
+.td_response_count {
 
 		padding-top:2px;
 		padding-left: 5px;
@@ -1388,70 +1460,6 @@ padding-left: 10px;
 
 	}
 
-	.AmiMenu.info_menu {
-
-		background-color: #333;
-		color: white;
-		font-weight: 500;
-		border-top: none !important;
-		border-bottom: none !important;
-		padding: 5px;
-		margin: 10px;
-
-		-webkit-box-shadow: 0px 0px 5px #888;
-		-moz-box-shadow: 0px 0px 5px #888;
-		box-shadow: 0px 0px 5px #888;
-}
-
-		.AmiMenu.info_menu .user_info {
-
-			line-height: 20px;
-			font-weight: bold;
-			padding-right: 9px;
-			padding-left: 9px;
-
-		}
-		
-		.AmiMenu.info_menu .user_img,
-		.AmiMenu.info_menu .separator {
-	
-			width: 0 !important;
-			max-width: 0 !important;
-			height: 0 !important;
-			max-height: 0 !important;
-			opacity: 0 !important;
-			margin: 0 !important;
-			padding: 0 !important;
-			overflow: hidden;
-		
-		}
-		
-		.AmiMenu.info_menu div {
-
-		background: none !important;
-			border-top: none !important;
-			border-bottom: none !important;
-				
-		}
-	
-
-#plurk-dashboard {
-
-	clear: both;
-
-	width: 100%;
-	/*height: 120px;*/
-	/*overflow: hidden;*/
-	padding: 9px 0px 0px 7px;
-
-}
-
-	.dash-segment {
-
-		width: 100%;
-
-	}
-
 
 
 .day_bg .div_inner {
@@ -1469,6 +1477,9 @@ margin: 0 5px;
 
 
 
+/* @end */
+
+/* @group Rounded */
 
 .plurk_cnt, .p_img, .qualifier, .m_qualifier,
 #more_options_holder, #input_big, #input_small,
@@ -1491,7 +1502,12 @@ span.response_count,
 
 }
 
-/*.plurk,*/
+
+
+/* @end */
+
+/* @group Animated */
+
 #input_big, .plurk_cnt, #plurk_form, 
 #more_options_holder,
 .plurk_box,
@@ -1507,6 +1523,10 @@ textarea {
 
 
 
+/* @end */
+
+/* @group Shadowed */
+
 .display .plurk_cnt {
 
 	-webkit-box-shadow: 0px 0px 5px #BEBEBE;
@@ -1514,6 +1534,10 @@ textarea {
 	box-shadow: 0px 0px 5px #BEBEBE;
 
 }
+
+
+
+/* @end */
 
 
 
@@ -1607,21 +1631,15 @@ textarea {
 
 /* @end */
 
+#footer {
 
-
-
-
-
-
-
-
-
-.video img,
-.video:hover img,
-.pictureservices img,
-.pictureservices:hover img {
-
-	padding: 0px !important;
-	border: none;
+	width: 0 !important;
+	max-width: 0 !important;
+	height: 0 !important;
+	max-height: 0 !important;
+	opacity: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden;
 
 }
