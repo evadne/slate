@@ -151,7 +151,7 @@ a:hover {
 
 
 
-/* @group Single Plurk &amp; Plurk Content Box */
+/* @group Single Plurk, Plurk Content Box */
 
 .plurk_cnt {
 
@@ -522,7 +522,7 @@ a:hover {
 	#timeline_holder  {
 
 		margin-top: -9px;
-		padding-top: 45px !important;
+		padding-top: 54px !important;
 		
 		padding-bottom: 36px !important;
 		margin-bottom: 36px !important;
@@ -743,9 +743,11 @@ a:hover {
 	
 		#filter_tab a.filter_selected {
 	
-			color: rgba(0, 0, 0, .5);
-			background: rgba(0, 0, 0, .125) !important;
-			-webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 1);
+			background: rgb(128, 128, 128) !important;
+			-webkit-box-shadow: inset 0px 2px 4px rgba(0, 0, 0, .55);
+			color: white;
+			font-weight: heavy;
+			text-shadow: 0px 1px 2px black;
 				
 		}
 
