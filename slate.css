@@ -243,6 +243,12 @@ a:hover {
 			border: none !important;
 	
 		}
+		
+		.plurk_box .p_img img {
+
+			border: 2px solid white !important;	
+	
+		}
 	
 		.plurk_box div.list {
 	
