@@ -272,6 +272,8 @@ a:hover {
 
 		min-width: 360px !important;
 		max-width: 360px !important;
+		
+		z-index: 16384;
 			
 	}
 	
