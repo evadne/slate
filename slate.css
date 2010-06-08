@@ -207,8 +207,33 @@ a:hover {
 
 		max-width: 240px !important;
 			height: auto !important;
+		padding-bottom: 4.5px;
 
 	}
+	
+		.display .plurk_cnt div.manager {
+
+			color: transparent !important;
+			padding: 4.5px 0px;
+
+		}
+
+		.display .plurk_cnt div.manager a {
+	
+			color: rgb(96, 96, 96) !important;
+
+		}
+	
+		.display .plurk_cnt div.manager,
+		.display .plurk_cnt div.manager a {
+	
+			font-size: 9px !important;
+			line-height: 9px !important;
+			font-weight: bold;
+			text-decoration: none !important;
+			text-transform: uppercase;
+	
+		}
 
 	.plurk_box {
 
@@ -224,6 +249,12 @@ a:hover {
 			-moz-border-radius: 4.5px;	 
 		
 		}
+		
+			#form_holder.plurk_box .mini_form {
+	
+				padding: 9px;
+
+			}
 	
 		.plurk_box div.caption {
 
@@ -1177,7 +1208,7 @@ a:hover {
 
 	div.AmiMenu.qual_menu {
 	
-		margin-left: 9px;
+		margin-left: 6px;
 		background: rgb(64, 64, 64);
 
 	}
