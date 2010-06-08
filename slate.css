@@ -69,11 +69,13 @@ a:hover {
 	vertical-align: center;
 	font-size: inherit;
 
+		top: 0px !important;
+
 }
 
 	#top_bar {
 
-		margin-top: -4px;
+		margin-top: 2px;
 
 	}
 
