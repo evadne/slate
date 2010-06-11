@@ -900,9 +900,11 @@ a:hover {
 	
 		#plurk_form form {
 
-			background-color: #EFEFEF !important;	
-			-webkit-box-shadow: 0px 0px 4.5px rgba(0, 0, 0, .25);
+			background-color: rgb(235, 235, 235) !important;	
+			-webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, .5);
 			padding: 0px;
+			
+			border: none !important;
 			
 			-moz-border-radius: 4.5px;
 			-webkit-border-radius: 4.5px;
@@ -961,11 +963,19 @@ a:hover {
 		
 				}
 	
-		#main_poster tbody {
+				#main_poster tbody {
+			
+					vertical-align: top;
+			
+				}
+				
+				#plurk_form td {
 	
-			vertical-align: top;
-	
-		}
+					height: auto !important;
+				
+				}
+				
+				
 	
 		.plurkaction td {
 	
@@ -982,19 +992,56 @@ a:hover {
 		#input_big,
 		#input_big.content {
 	
-			min-height: 6em;
+			font-size: 2em !important;
+	
+			min-height: 2em;
+			height: 2em;
+			max-height: 4em;
+			
+			resize: vertical;
 
 			background: #FCFCFC;
 			padding: 9px !important;
+			margin-bottom: -18px !important;
 			line-height: 30px;
+			
+			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .35);
+			background-image: -webkit-gradient(
+
+				linear,
+				left top,
+				left bottom,
+				color-stop(0, rgba(0, 0, 0, .050)),
+				color-stop(1, rgba(0, 0, 0, .035))
+
+			);
 	
 		}
 	
 			#input_big:focus {
 	
 				outline: none;
+				
+				min-height: 4em;
+				height: 6em;
+				max-height: 8em;
 	
 			}
+			
+		.char_updater,
+		.char_highlight {
+	
+				margin-top: 27px !important;
+				margin-bototm: -9px;
+				text-align: right;
+				font-size: 9px;
+				text-transform: uppercase;
+				font-weight: bold;
+				color: gray !important;
+				background: none !important;
+				text-shadow: 0px 1px 0px rgba(255, 255, 255, .55);
+				
+		}
 			
 		/* @end */
 		
@@ -1002,26 +1049,48 @@ a:hover {
 		
 		#more_options {
 	
-			background: rgba(0, 0, 0, .15);
+			background: rgb(96, 96, 96);
 
+			margin-top: 0px;
+			margin-right: 0px;
 			padding: 9px;
 			
 			-webkit-border-bottom-right-radius: 4.5px;
 			-webkit-border-bottom-left-radius: 4.5px;
+			
+			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
 
 		}
+		
+			#plurk_to {
+	
+				color:  white;
+
+			}
+			
+				#plurk_to b {
+	
+						color: inherit;
+				
+				}
 		
 			#more_options_link {
 
 				color: white !important;
 				font-weight: bold;
+				text-decoration: none !important;
 	
 			}
 			
 			div#more_options_holder {
 	
-				background:transparent !important;
+				margin: 9px 0px 0px 0px;
+				padding: 18px !important;
+				background: rgba(0, 0, 0, .35) !important;
+				-webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .5), 0px 1px 0px rgba(255, 255, 255 ,.2);
+				
 				overflow: hidden;
+				height: auto !important;
 	
 			}
 			
@@ -1039,6 +1108,18 @@ a:hover {
 					overflow: hidden;
 	
 				}
+				
+			#more_options_holder .item,
+			#more_options_holder .item label,
+			#more_options_holder .item * {
+	
+				color: white !important;
+				/*text-transform: uppercase;*/
+				/*font-weight: bold;*/
+				/*font-size: 8px !important;
+				font-family: "Helvetica";*/
+							
+			}
 
 /* @end */
 	
