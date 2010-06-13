@@ -276,14 +276,16 @@ a:hover {
 		max-width: 360px !important;
 		
 		z-index: 2048;
-			
+		
 	}
 	
 		#form_holder.plurk_box {
 
 			margin-top: 18px;
 			-webkit-border-radius: 4.5px;
-			-moz-border-radius: 4.5px;	 
+			-moz-border-radius: 4.5px;	
+			
+			margin-bottom: 72px !important; 
 		
 		}
 		
@@ -519,6 +521,14 @@ a:hover {
 	
 					margin-bottom: -27px;
 			
+			}
+			
+			.plurk_box div.info_box .limited_box {
+	
+					margin-top: 27px;
+					height: 27px;
+					margin-bottom: 27px;
+	
 			}
 			
 /* @end */
