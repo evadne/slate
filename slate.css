@@ -1152,12 +1152,25 @@ a:hover {
 			#more_options_holder .item * {
 	
 				color: white !important;
-				/*text-transform: uppercase;*/
-				/*font-weight: bold;*/
-				/*font-size: 8px !important;
-				font-family: "Helvetica";*/
 							
 			}
+			
+				#more_options_holder .item .radios {
+	
+					-webkit-appearance: none;
+					background-color: rgba(255, 255, 255, .15);
+					width:  18px;
+					height: 18px;
+					-webkit-border-radius: 9px;
+					-webkit-box-shadow: inset 0px 1px 2px black, 0px 1px 0px rgba(255, 255, 255, .35);
+				
+				}
+				
+				#more_options_holder .item .radios:active {
+				
+					background-color: rgba(255, 255, 255, .5);
+				
+				}
 
 /* @end */
 	
