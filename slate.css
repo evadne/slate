@@ -1623,10 +1623,13 @@ a:hover {
 
 /* @group Snippets */
 
+/* @group Response Action Holder */
+
 .response_time.plurk_cnt {
 	
 	z-index:  4096;
 	height: 27px;
+	min-width: 144px;
 	margin-top: 4px;
 	margin-left: 18px;
 	padding-left: 4.5px;
@@ -1634,6 +1637,9 @@ a:hover {
 	
 	background: rgba(64, 64, 64, .85) !important;
 	-webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, .5);
+	
+	overflow-x: visible;
+	overflow-y: hidden;
 
 }
 
@@ -1643,22 +1649,27 @@ a:hover {
 
 	}
 	
-		.response_time.plurk_cnt .holder .reply_to {
+		.response_time.plurk_cnt .holder a {
 	
 			margin-top: 1px;
 			background-color: white;
 			border: 4.5px solid white;
 			-webkit-border-radius: 2px;
-			margin-right: 9px;
+			margin-right: 4.5px;
 	
 		}
 
-	.response_time.plurk_cnt p {
-
-		line-height: 27px;
+		.response_time.plurk_cnt .holder p {
+	
+			white-space: nowrap;
+			line-height: 27px;
 			color: white !important;
-		
-	}
+	
+		}
+
+
+
+/* @end */
 
 #form_holder {
 
