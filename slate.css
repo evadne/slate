@@ -1602,24 +1602,43 @@ a:hover {
 		
 		div.AmiMenu.qual_menu tr td.q_shares {
 	
-			padding-bottom: 144px;
+			padding-bottom: 117px;
 			
 		}
 		
 		div.AmiMenu.share_menu {
 	
 			margin-left: -147px;
-			margin-top: 27px;
+			margin-top: 12px;
 			-webkit-box-shadow: none;
 			background: transparent;
 		
 		}
 		
+			div.AmiMenu.share_menu table {
+	
+				margin: 9px;
+				
+				background: rgba(0, 0, 0, .35);
+				-webkit-box-shadow: inset 0px 1px 2px black,
+									0px 1px 0px rgba(255, 255, 255, .125);
+				
+				border-radius: 4.5px;
+		
+			}
+			
+				div.AmiMenu.share_menu table td {
+	
+					padding-left: 9px;
+					padding-right: 9px;
+	
+				}
+		
 		div.AmiMenu.share_menu.mini_menu {
 	
 			margin-left: -147px;
 			padding-top: 0px;
-			margin-top: 27px;
+			margin-top: 12px;
 			
 		}
 
