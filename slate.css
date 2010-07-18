@@ -1539,14 +1539,14 @@ a:hover {
 		/*margin-left: 3px;*/
 	
 		-webkit-border-radius: 4.5px;
-		padding-top: 18px !important;
-		padding-bottom: 18px !important;
+		padding-top: 6px !important;
+		padding-bottom: 6px !important;
 		
 		border: none !important;
 		
 		-webkit-box-shadow: 0px 0px 2px black;
 		
-					z-index: 4096;
+		z-index: 4096;
 
 	}
 	
@@ -1567,6 +1567,13 @@ a:hover {
 			
 			color: white;
 			border: none !important;
+			
+			width: 108px;
+			
+			cursor: pointer;
+			
+			text-shadow:	0px -1px 0px rgba(0, 0, 0, .25),
+							0px 0px 3px rgba(255, 255, 255, .25);
 	
 		}
 
@@ -1591,6 +1598,29 @@ a:hover {
 			opacity: 1;
 			background: none !important;
 	
+		}
+		
+		div.AmiMenu.qual_menu tr td.q_shares {
+	
+			padding-bottom: 144px;
+			
+		}
+		
+		div.AmiMenu.share_menu {
+	
+			margin-left: -147px;
+			margin-top: 27px;
+			-webkit-box-shadow: none;
+			background: transparent;
+		
+		}
+		
+		div.AmiMenu.share_menu.mini_menu {
+	
+			margin-left: -147px;
+			padding-top: 0px;
+			margin-top: 27px;
+			
 		}
 
 /* @end */
