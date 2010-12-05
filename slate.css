@@ -2040,3 +2040,15 @@ textarea {
 	overflow: hidden;
 
 }
+
+
+
+
+
+#top_login #sign_up {
+	
+	border-top: none;
+	border-bottom: none;
+	text-decoration: none;
+
+}
