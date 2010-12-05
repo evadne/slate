@@ -2052,3 +2052,20 @@ textarea {
 	text-decoration: none;
 
 }
+
+
+
+
+
+.plurk_box .login_to_see a {
+	
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	
+	background: none;
+	color: gray;
+	text-decoration: none;
+	
+
+}
