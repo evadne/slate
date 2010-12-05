@@ -227,6 +227,8 @@ a:hover {
 		margin: 0px;
 		padding-right: 0px;
 		margin-right: 0px;
+		
+		text-overflow: ellipsis;
 
 	}
 	
