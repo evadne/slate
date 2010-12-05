@@ -408,7 +408,7 @@ a:hover {
 
 				height: 8em;
 				padding: 0px !important;
-			
+							
 			}
 			
 			.plurk_box div.mini_form .smily_holder {
@@ -860,6 +860,8 @@ a:hover {
 		-webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0);
 		
 		color:  rgb(128, 128, 128) !important;
+		
+		white-space: nowrap;
 				
 	}
 	
@@ -872,6 +874,22 @@ a:hover {
 			text-shadow: 0px 1px 2px rgba(0, 0, 0 ,.85);
 				
 		}
+		
+		.unread #alert_beacon, .unread_generic {
+	
+		background: none;
+		color: inherit !important;
+		padding: none !impotant;
+		margin: none !important;
+		font-weight: inherit !important;ic
+
+}
+		
+	#count_private_plurks {
+	
+		background-color: none !important;
+	
+	}
 
 	#filter_tab .off_tab:hover {
 
@@ -890,6 +908,27 @@ a:hover {
 	#plurk_form .input_holder {
 	
 		padding-right: 18px;
+	
+	}
+	
+	#plurk_form table.plurkForm .icons_holder_row {
+	
+		height: 0px !important;
+		overflow: hidden;
+
+	}
+	
+	td.icon_holder {
+	
+	text-align: right;
+	
+	
+
+}
+	
+	td.icon_holder span.qual_holder {
+	
+		padidng-top: 256px;
 	
 	}
 	
@@ -933,6 +972,8 @@ a:hover {
 			-moz-border-radius: 4.5px;
 			-webkit-border-radius: 4.5px;
 			border-radius: 4.5px;
+			
+			padding-bottom: 9px;
 
 		}
 	
@@ -947,7 +988,7 @@ a:hover {
 				padding: 9px;
 				margin-right: -72px;
 				
-
+			overflow: hidden;
 
 			}
 			
@@ -959,7 +1000,15 @@ a:hover {
 	
 				}
 				
+				#main_poster span.m_qualifier:hover {
+	
+					opacity: 1;
+
+				}
+				
 				#main_poster span.m_qualifier {
+	
+					opacity: .95;
 	
 					font-family: "Helvetica";
 					border:  none !important;
@@ -971,11 +1020,26 @@ a:hover {
 					text-transform: uppercase;
 					letter-spacing: 1.5px;
 					-webkit-text-stroke: 1px white;
-					text-shadow: 0px 1px 2px rgba(0, 0, 0, .65);
+					text-shadow: 0px -1px 0px rgba(0, 0, 0, .45);
+
+
 					-webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, .5),
 										0px 1px 0px rgba(255, 255, 255, .125);
+
+					-webkit-box-shadow: none;
+
+					border: 1px solid rgba(0, 0, 0, .25) !important;
+					border-top:  1px solid rgba(0, 0, 0, .05) !important;
+					border-bottom:  1px solid rgba(0, 0, 0, .24) !important;
+					
+					-webkit-box-shadow: inset 0px 1px 2px rgba(255, 255, 255, .4),
+										inset 0px -1px 0px rgba(255, 255, 255, .31),
+										inset 0px -1px 2px rgba(0, 0, 0, .25),
+										0px -1px 0px rgba(255, 255, 255, .75),
+										0px 2px 2px rgba(255, 255, 255, .75),
+										0px 1px 0px rgba(255, 255, 255, .45);
 										
-					-webkit-transition: .25s background-color;
+					-webkit-transition: .25s all;
 				
 				}
 			
@@ -1038,18 +1102,26 @@ a:hover {
 	
 			font-size: 24px !important;
 	
-			min-height: 2em;
-			height: 2em;
+			min-height: 4em;
+			height: 4em;
 			max-height: 4em;
 			
 			resize: vertical;
 
 			background: #FCFCFC;
 			padding: 9px !important;
-			margin-bottom: -18px !important;
-			line-height: 30px;
 			
-			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .35);
+			line-height: 30px;
+		
+			margin-top: 5px !important;
+			padding-right: 0px !important;
+			padding-left: 9px !important;
+			margin-left: 9px !important;
+			
+			width: 404px !important;
+			
+			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .35),
+								0px -1px 1px rgba(255, 255, 255, .65);
 			background-image: -webkit-gradient(
 
 				linear,
@@ -1067,8 +1139,8 @@ a:hover {
 				outline: none;
 				
 				min-height: 4em;
-				height: 6em;
-				max-height: 8em;
+				height: 4em;
+				max-height: 6em;
 	
 			}
 			
@@ -1096,13 +1168,16 @@ a:hover {
 			background: rgb(96, 96, 96);
 
 			margin-top: 0px;
-			margin-right: 0px;
+			margin-left: 9px;
+			margin-right: 9px;
+			margin-bottom: 0px;
 			padding: 9px;
 			
-			-webkit-border-bottom-right-radius: 4.5px;
-			-webkit-border-bottom-left-radius: 4.5px;
+			-webkit-border-radius: 4.5px;
 			
 			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
+			
+			margin-top: -40px;
 
 		}
 		
@@ -1131,6 +1206,7 @@ a:hover {
 	
 				margin: 9px 0px 0px 0px;
 				padding: 18px !important;
+				padding-bottom: 0px !important;
 				background: rgba(0, 0, 0, .35) !important;
 				-webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .5), 0px 1px 0px rgba(255, 255, 255 ,.2);
 				
@@ -1159,17 +1235,28 @@ a:hover {
 			#more_options_holder .item * {
 	
 				color: white !important;
-							
+					line-height: 18px;
+					
+					width: auto;
+
+											
 			}
+			
+				#more_options_holder .item span {
+	
+
+				}
 			
 				#more_options_holder .item .radios {
 	
 					-webkit-appearance: none;
 					background-color: rgba(255, 255, 255, .15);
-					width:  18px;
-					height: 18px;
+					width:  14px;
+					height: 14px;
 					-webkit-border-radius: 9px;
 					-webkit-box-shadow: inset 0px 1px 2px black, 0px 1px 0px rgba(255, 255, 255, .35);
+					
+					margin-top: -6px;
 				
 				}
 				
@@ -1177,6 +1264,39 @@ a:hover {
 				
 					background-color: rgba(255, 255, 255, .5);
 				
+				}
+				
+				#more_options .auto_ta,.clipboard {
+				
+					border: none !important;
+					background: none;
+					padding: none;
+								
+				}
+				
+				#more_options_holder #auto_ta_holder {
+
+						margin-top: -4px !important;
+
+				}
+
+				
+				#more_options_holder #auto_ta_holder ul {
+	
+					background: rgb(48, 48, 48);
+					border: none !important;
+					color: black;
+					
+					-webkit-border-radius: 4px;
+					-webkit-box-shadow: inset 0px 1px 2px black;
+					padding: 4px !important;
+					
+				}
+				
+				#more_options .auto_ta input {
+	
+					background: none;
+
 				}
 
 /* @end */
@@ -1353,21 +1473,94 @@ a:hover {
 		
 	#emoticon_selector, 
 	#emoticon_selector div {
-
-
+	
 	}
 	
+	.plurk_box .login_to_see a, .red_link {
+		
+		background-color: transparent;
+		color: white;
+		font-weight: normal;
+		padding: 2px;
+	
+	}
+	
+	.red_link {
+		
+	background-color: none !important;
+
+}
+	
+		#emoticons_show div div {
+
+			text-align: right;
+			margin-bottom: 4px;
+
+		}
+		
+				#emoticons_show div div a {
+	
+					text-decoration: none;
+					margin-right: 8px;
+					
+					font-family: "Helvetica", "Arial", sans-serif;
+					font-size: 9px;
+					text-transform: uppercase;
+					font-weight: bold;
+					color: gray;
+
+				}
+	
 		#emoticons_tabs {	
+
+
+				height: 32px;
+				padding-right: 18px;
+				padding: 9px;
+				padding-top: 4px;
+
+				background: -webkit-gradient(linear, left top, left bottom, from(
+				
+					rgb(96, 96, 96)
+				
+				), to(
+				
+					rgb(64, 64, 64)
+				
+				));
+				
+				padding-bottom: 20px;
+				
+				-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, .05),
+									inset 0px -1px 2px rgba(0, 0, 0, .45);
+
+
 
 		}
 		
 			#emoticons_tabs ul {
 	
-				height: 36px;
-				padding-right: 18px;
-				padding: 9px;
-				
+				margin-top: 4px;
 	
+				height: 36px;
+				text-align: center;
+	
+				background: -webkit-gradient(linear, left top, left bottom, from(
+				
+					rgb(64, 64, 64)
+				
+				), to(
+				
+					rgb(32, 32, 32)
+				
+				));
+				
+				-webkit-box-shadow: inset 0px 1px 4px black;
+				
+				-moz-border-radius: 4.5px;
+				-webkit-border-radius: 4.5px;
+				border-radius: 4.5px;
+				
 			}
 		
 			#emoticons_tabs ul li,
@@ -1376,22 +1569,11 @@ a:hover {
 				background: none;
 				border: none;
 				
-				height: 100% !important;
-				padding: 0px;
+				height: 36px !important;
+				padding: 0px 9px;
 				margin: 0px;
-				
-				width: 72px;
-				margin-left: 9px;
-				
-				
-				
-				-moz-border-radius: 4.5px;
-				-webkit-border-radius: 4.5px;
-				border-radius: 4.5px;
-				
 				text-align: center;
-				
-				vertical-align: middle;
+				vertical-align: top;
 					
 			}
 			
@@ -1399,17 +1581,13 @@ a:hover {
 			#emoticons_tabs ul li:hover {
 
 				background-color: rgba(0, 0, 0, .35);
-	
 
-				}
-			
-			
-			
+			}
 			
 				#emoticons_tabs ul li a {
 
 					color: white !important;
-					font-weight: bold;
+					font-weight: normal;
 					line-height: 36px;
 
 				}
@@ -1430,18 +1608,18 @@ a:hover {
 		#emoticon_selecter {
 	
 			width: 657px;
-			background: rgba(128, 128, 128, .85);
+			background: rgba(64, 64, 64, .95);
 			margin-left: -54px;
 			
 			-moz-border-radius: 4.5px;
 			-webkit-border-radius: 4.5px;
 			border-radius: 4.5px;
 			
-			-webkit-box-shadow: 0px 6.75px 18px rgba(0, 0, 0, .25);
-			-moz-box-shadow: 0px 0px 4.5px #666;
-			box-shadow: 0px 0px 4.5px #666;
+			-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .96),
+								0px 6.75px 18px rgba(0, 0, 0, .55),
+								inset 0px 0px 4px black;
 			
-			border: inset 1px rgba(0, 0, 0, .125);
+			border: 2px solid rgba(255, 255, 255, .95) !important;
 
 		}
 		
@@ -1476,7 +1654,7 @@ a:hover {
 					height: 45px;
 					max-height: 45px;
 					
-					opacity:  .75;
+					opacity:  .97;
 					cursor: pointer;
 	
 				}
@@ -1924,12 +2102,8 @@ textarea {
 	.GB_Gallery {
 
 		background: rgba(0, 0, 0, .65);
-		-webkit-box-shadow: 0px 0px 9px rgba(0, 0, 0, .75);
-		-moz-box-shadow: 0px 0px 9px rgba(0, 0, 0, .75);
-		box-shadow: 0px 0px 9px rgba(0, 0, 0, .75);
-		-moz-border-radius: 4.5px;
+		-webkit-box-shadow: 0px 9px 18px rgba(0, 0, 0, .75);
 		-webkit-border-radius: 4.5px;
-		border-radius: 4.5px;
 		
 		z-index:  2048;
 
@@ -1945,7 +2119,7 @@ textarea {
 		
 		background: none;
 		border: none;
-
+				
 	}
 	
 		.iframe_holder .direct-l {
