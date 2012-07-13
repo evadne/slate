@@ -624,7 +624,7 @@ a:hover {
 		background: rgb(64, 64, 64);
 		padding: 18px;
 		margin: 18px;
-		left: 62px; /*72px - 10px;*/
+		left: 93%; /*72px - 10px;*/
 		margin-left: -36px;
 		
 		/*margin-left: -9px;
