@@ -1163,141 +1163,55 @@ a:hover {
 		
 		/* @group More Options */
 		
-		#more_options {
-	
-			background: rgb(96, 96, 96);
+		#more_options_link,
+#more_options .on
+{
+	background-color:#fff;
+	border-color:#ddd;
+	color:#333 !important;
+}
+#more_options_holder
+{
+	background:rgba(0, 0, 0, .35) !important; !important;
+	color:#303030 !important;
+}
+#more_options td
+{
+	background:none !important;
+}
 
-			margin-top: 0px;
-			margin-left: 9px;
-			margin-right: 9px;
-			margin-bottom: 0px;
-			padding: 9px;
-			
-			-webkit-border-radius: 4.5px;
-			
-			-webkit-box-shadow: inset 0px 1px 2px rgba(0, 0, 0, .5);
-			
-			margin-top: -40px;
+.small {font-size:10px !important;}
+.private_to {color:#ccc !important;}
 
-		}
-		
-			#plurk_to {
-	
-				color:  white;
-				white-space: nowrap;
-
-			}
-			
-				#plurk_to b {
-	
-						color: inherit;
-				
-				}
-		
-			#more_options_link {
-
-				color: white !important;
-				font-weight: bold;
-				text-decoration: none !important;
-	
-			}
-			
-			div#more_options_holder {
-	
-				margin: 9px 0px 0px 0px;
-				padding: 18px !important;
-				padding-bottom: 0px !important;
-				background: rgba(0, 0, 0, .35) !important;
-				-webkit-box-shadow: inset 0px 1px 3px rgba(0, 0, 0, .5), 0px 1px 0px rgba(255, 255, 255 ,.2);
-				
-				overflow: hidden;
-				height: auto !important;
-	
-			}
-			
-				div.holder #only_holder.item .td_ta span.small,
-				div#more_options_holder .caption,
-				#more_options_holder .advert {
-	
-					width: 0 !important;
-					max-width: 0 !important;
-					height: 0 !important;
-					max-height: 0 !important;
-					opacity: 0 !important;
-					margin: 0 !important;
-					padding: 0 !important;
-					overflow: hidden;
-	
-				}
-				
-			#more_options_holder .item,
-			#more_options_holder .item label,
-			#more_options_holder .item * {
-	
-				color: white !important;
-					line-height: 18px;
-					
-					width: auto;
-
-											
-			}
-			
-				#more_options_holder .item span {
-	
-
-				}
-			
-				#more_options_holder .item .radios {
-	
-					-webkit-appearance: none;
-					background-color: rgba(255, 255, 255, .15);
-					width:  14px;
-					height: 14px;
-					-webkit-border-radius: 9px;
-					-webkit-box-shadow: inset 0px 1px 2px black, 0px 1px 0px rgba(255, 255, 255, .35);
-					
-					margin-top: -6px;
-				
-				}
-				
-				#more_options_holder .item .radios:active {
-				
-					background-color: rgba(255, 255, 255, .5);
-				
-				}
-				
-				#more_options .auto_ta,.clipboard {
-				
-					border: none !important;
-					background: none;
-					padding: none;
-								
-				}
-				
-				#more_options_holder #auto_ta_holder {
-
-						margin-top: -4px !important;
-
-				}
-
-				
-				#more_options_holder #auto_ta_holder ul {
-	
-					background: rgb(48, 48, 48);
-					border: none !important;
-					color: black;
-					
-					-webkit-border-radius: 4px;
-					-webkit-box-shadow: inset 0px 1px 2px black;
-					padding: 4px !important;
-					
-				}
-				
-				#more_options .auto_ta input {
-	
-					background: none;
-
-				}
+.private_to b,
+.selectedSmartInputItem, .selectedSmartInputItem a,
+.selectedSmartInputItem a:hover, 
+.auto_ta .person
+{
+	background:#f0f0f0 !important;
+	color:#b5b0a6 !important;
+	font-size:12px !important;
+	font-weight:normal !important;
+	text-decoration:none !important;
+}
+#smartInputFloaterContent
+{
+	background:#f4f4f4 !important;
+}
+.private_to b,
+.auto_ta .person
+{
+	padding:2px 4px;
+}
+.wickEnabled, .wickEnabled:focus
+{
+	background:none !important;
+	border:0 !important;
+	color:#222 !important;
+	-moz-box-shadow:0px 0px 0px #ccc;
+	-webkit-box-shadow:0px 0px 0px #ccc;
+	box-shadow:0px 0px 0px #ccc;
+}
 
 /* @end */
 	
@@ -1471,206 +1385,93 @@ a:hover {
 
 /* @group Emoticons */
 		
-	#emoticon_selector, 
-	#emoticon_selector div {
-	
-	}
-	
-	.plurk_box .login_to_see a, .red_link {
-		
-		background-color: transparent;
-		color: white;
-		font-weight: normal;
-		padding: 2px;
-	
-	}
-	
-	.red_link {
-		
-	background-color: none !important;
-
+#emoticon_selecter
+{
+	background:transparent url(http://i614.photobucket.com/albums/tt230/m66660000/patterns/whitey.png) repeat !important;
+	border-color:#eee !important;
 }
-	
-		#emoticons_show div div {
-
-			text-align: right;
-			margin-bottom: 4px;
-
-		}
-		
-				#emoticons_show div div a {
-	
-					text-decoration: none;
-					margin-right: 8px;
-					
-					font-family: "Helvetica", "Arial", sans-serif;
-					font-size: 9px;
-					text-transform: uppercase;
-					font-weight: bold;
-					color: gray;
-
-				}
-	
-		#emoticons_tabs {	
-
-
-				height: 32px;
-				padding-right: 18px;
-				padding: 9px;
-				padding-top: 4px;
-
-				background: -webkit-gradient(linear, left top, left bottom, from(
-				
-					rgb(96, 96, 96)
-				
-				), to(
-				
-					rgb(64, 64, 64)
-				
-				));
-				
-				padding-bottom: 20px;
-				
-				-webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, .05),
-									inset 0px -1px 2px rgba(0, 0, 0, .45);
-
-
-
-		}
-		
-			#emoticons_tabs ul {
-	
-				margin-top: 4px;
-	
-				height: 36px;
-				text-align: center;
-	
-				background: -webkit-gradient(linear, left top, left bottom, from(
-				
-					rgb(64, 64, 64)
-				
-				), to(
-				
-					rgb(32, 32, 32)
-				
-				));
-				
-				-webkit-box-shadow: inset 0px 1px 4px black;
-				
-				-moz-border-radius: 4.5px;
-				-webkit-border-radius: 4.5px;
-				border-radius: 4.5px;
-				
-			}
-		
-			#emoticons_tabs ul li,
-			#emoticons_tabs ul li.current {
-	
-				background: none;
-				border: none;
-				
-				height: 36px !important;
-				padding: 0px 9px;
-				margin: 0px;
-				text-align: center;
-				vertical-align: top;
-					
-			}
-			
-			#emoticons_tabs ul li.current,
-			#emoticons_tabs ul li:hover {
-
-				background-color: rgba(0, 0, 0, .35);
-
-			}
-			
-				#emoticons_tabs ul li a {
-
-					color: white !important;
-					font-weight: normal;
-					line-height: 36px;
-
-				}
-	
-		#emoticons_show {
-
-			border: none;
-			background: none;
-
-		}
-		
-			#emoticons_show td {
-
-				
-			
-			}
-		
-		#emoticon_selecter {
-	
-			width: 657px;
-			background: rgba(64, 64, 64, .95);
-			margin-left: -54px;
-			
-			-moz-border-radius: 4.5px;
-			-webkit-border-radius: 4.5px;
-			border-radius: 4.5px;
-			
-			-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .96),
-								0px 6.75px 18px rgba(0, 0, 0, .55),
-								inset 0px 0px 4px black;
-			
-			border: 2px solid rgba(255, 255, 255, .95) !important;
-
-		}
-		
-		#emoticons_show table {
-	
-			/*width: 576px;*/
-			border-collapse:separate;
-			border-spacing: 9px 9px !important;
-	
-		}
-		
-			#emoticons_show table tr {
-	
-			}
-			
-				#emoticons_show table tr td {
-	
-					min-width:  72px;
-					width:  72px;	
-					max-width:  72px;
-
-					text-align: center;
-					overflow: hidden;
-	
-					-moz-border-radius: 4.5px;
-					-webkit-border-radius: 4.5px;
-					border-radius: 4.5px;
-	
-					background: rgb(255, 255, 255);
-
-					min-height: 45px;
-					height: 45px;
-					max-height: 45px;
-					
-					opacity:  .97;
-					cursor: pointer;
-	
-				}
-				
-					#emoticons_show table tr td:hover {
-	
-						opacity: 1;
-						
-					}
-		
-					#emoticons_show table tr td img {
-			
-						border: none !important;
-			
-					}
-		
+#emoticon_selecter .upper_arrow
+{
+	background-image:none !important;
+}
+#emoticon_selecter #emoticons_tabs ul
+{
+	overflow:visible !important;
+}
+#emoticons_show
+{
+	padding:4px;
+	padding-top:10px!important;
+	border-top:0 !important;
+	width:422px !important;
+}
+#emoticon_selecter img, #emoticon_selecter a:hover img,
+.emo-manager .emo-public-pool .emo-wrapper,
+.emo-manager .emo-public-pool .emo-wrapper:hover
+{
+	border:0 !important;
+}
+#emoticon_selecter #emoticons_tabs {padding:6px 0px 0 !important; }
+#emoticon_selecter #emoticons_tabs
+{
+	background:none !important;
+	border:0 !important;
+}
+#emoticon_selecter #emoticons_tabs li
+{
+	background:none !important;
+	border:0 !important;
+	font-size:90% !important;
+}
+#emoticon_selecter #emoticons_tabs li.current 
+{
+	background:#cbcbcb !important;
+}
+#emoticons_tabs ul li a
+{
+	color:#8099ad !important;  /*8099ad*/
+	font-weight:normal !important;
+}
+#emoticons_tabs ul li.current a
+{
+	color:#133d5f !important;   /*133d5f*/
+}
+.emo-manager
+{
+	background:none !important;
+}
+#emoticons_show input.orange-but
+{
+	font-size:12px !important;
+}
+.emoticons_my .add-emoticon-panel div.popup
+{
+	background:#fff !important;
+	border-color:#ddd !important;
+	font-size:12px !important;
+	color:#333 !important;
+	width:340px;
+}
+.emoticons_my .add-emoticon-panel input.col-right,
+.emoticons_my .add-emoticon-panel input.col-right:focus
+{
+	background:#fff !important;
+	border-color:#ddd !important;
+	font-size:11px !important;
+	color:#111 !important;
+	width:px !important;
+}
+.emoticons_my .add-emoticon-panel .col-left
+{
+	width: !important;
+	margin-left:px !important;
+}
+.emoticons_my .emo-manager-message,
+.emoticons_my .emo-manager-message-small
+{
+	color: #999;
+	font-size:11px !important;
+}
 		
 /* @end */
 
